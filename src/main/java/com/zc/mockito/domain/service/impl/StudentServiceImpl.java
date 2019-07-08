@@ -4,6 +4,7 @@ import com.zc.mockito.domain.model.Student;
 import com.zc.mockito.domain.repository.StudentRepository;
 import com.zc.mockito.domain.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -29,6 +30,11 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public List<Student> getStudentList() {
         return studentRepository.findAll();
+    }
+
+    @Override
+    public List<Student> findAll(Pageable pageable) {
+        return studentRepository.findAll(pageable).getContent();
     }
 
     @Override

@@ -1,6 +1,7 @@
 package com.zc.mockito.domain.service;
 
 import com.zc.mockito.domain.model.Student;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
@@ -15,6 +16,8 @@ public interface StudentService {
     public Student getStudent(int id);
 
     public List<Student> getStudentList();
+
+    public List<Student> findAll(Pageable pageable);
 
     public Student updateStudent(Student student);
 

@@ -1,0 +1,233 @@
+20190708 16:52:39.371 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.zc.mockito.interfaces.controller.StudentControllerTest], using SpringBootContextLoader
+20190708 16:52:39.371 [main] INFO  o.s.test.context.support.AbstractContextLoader -Could not detect default resource locations for test class [com.zc.mockito.interfaces.controller.StudentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20190708 16:52:39.606 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+20190708 16:52:39.652 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2a5c8d3f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@752325ad, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@279fedbd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@b3ca52e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@45c7e403, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2925bf5b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@710f4dc7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1ff4931d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@65e98b1c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@61322f9d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6ad82709, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@510f3d34]
+20190708 16:52:39.902 [main] INFO  c.z.m.interfaces.controller.StudentControllerTest -Starting StudentControllerTest on SZ-zhangchi with PID 2624 (started by zhangchi in H:\GitHub\spring-boot-mockito)
+20190708 16:52:39.902 [main] INFO  c.z.m.interfaces.controller.StudentControllerTest -No active profile set, falling back to default profiles: default
+20190708 16:52:40.371 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Bootstrapping Spring Data repositories in DEFAULT mode.
+20190708 16:52:40.434 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 63ms. Found 2 repository interfaces.
+20190708 16:52:40.887 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2ec53b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20190708 16:52:41.168 [main] INFO  org.hibernate.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20190708 16:52:41.262 [main] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.10.Final}
+20190708 16:52:41.262 [main] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+20190708 16:52:41.543 [main] INFO  org.hibernate.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+20190708 16:52:41.809 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+20190708 16:52:42.262 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+20190708 16:52:42.278 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+20190708 16:52:43.059 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+20190708 16:52:43.372 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService
+20190708 16:52:43.372 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'ThreadPoolTest'
+20190708 16:52:43.856 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20190708 16:52:44.137 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext -Initializing Spring TestDispatcherServlet ''
+20190708 16:52:44.137 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet -Initializing Servlet ''
+20190708 16:52:44.137 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet -Completed initialization in 0 ms
+20190708 16:52:44.278 [main] INFO  c.z.m.interfaces.controller.StudentControllerTest -Started StudentControllerTest in 4.579 seconds (JVM running for 5.656)
+20190708 16:52:44.684 [Thread-4] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Shutting down ExecutorService 'ThreadPoolTest'
+20190708 16:52:44.684 [Thread-4] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+20190708 16:52:44.684 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+20190708 16:52:44.684 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+20190708 16:53:04.129 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Starting SpringBootMockitoApplication on SZ-zhangchi with PID 5172 (H:\GitHub\spring-boot-mockito\target\classes started by zhangchi in H:\GitHub\spring-boot-mockito)
+20190708 16:53:04.129 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -No active profile set, falling back to default profiles: default
+20190708 16:53:04.160 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20190708 16:53:04.160 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20190708 16:53:04.519 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Bootstrapping Spring Data repositories in DEFAULT mode.
+20190708 16:53:04.551 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 32ms. Found 2 repository interfaces.
+20190708 16:53:04.895 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd7cca98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20190708 16:53:05.113 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+20190708 16:53:05.129 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+20190708 16:53:05.129 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+20190708 16:53:05.129 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.21]
+20190708 16:53:05.223 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+20190708 16:53:05.223 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1063 ms
+20190708 16:53:05.348 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20190708 16:53:05.410 [restartedMain] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.10.Final}
+20190708 16:53:05.410 [restartedMain] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+20190708 16:53:05.488 [restartedMain] INFO  org.hibernate.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+20190708 16:53:05.566 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+20190708 16:53:05.832 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+20190708 16:53:05.832 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+20190708 16:53:06.207 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+20190708 16:53:06.254 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+20190708 16:53:06.410 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService
+20190708 16:53:06.410 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'ThreadPoolTest'
+20190708 16:53:06.567 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20190708 16:53:06.676 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+20190708 16:53:06.692 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+20190708 16:53:06.692 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Started SpringBootMockitoApplication in 2.751 seconds (JVM running for 3.405)
+20190708 16:53:11.322 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+20190708 16:53:11.323 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+20190708 16:53:11.329 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 5 ms
+20190708 16:53:31.615 [http-nio-8080-exec-2] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator -HHH000397: Using ASTQueryTranslatorFactory
+20190708 16:56:44.103 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Shutting down ExecutorService 'ThreadPoolTest'
+20190708 16:56:44.103 [Thread-9] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+20190708 16:56:44.103 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+20190708 16:56:44.103 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+20190708 16:56:44.384 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Starting SpringBootMockitoApplication on SZ-zhangchi with PID 5172 (H:\GitHub\spring-boot-mockito\target\classes started by zhangchi in H:\GitHub\spring-boot-mockito)
+20190708 16:56:44.384 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -No active profile set, falling back to default profiles: default
+20190708 16:56:44.525 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Bootstrapping Spring Data repositories in DEFAULT mode.
+20190708 16:56:44.525 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 0ms. Found 2 repository interfaces.
+20190708 16:56:44.572 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd7cca98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20190708 16:56:44.681 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+20190708 16:56:44.681 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+20190708 16:56:44.681 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+20190708 16:56:44.681 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.21]
+20190708 16:56:44.712 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+20190708 16:56:44.712 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 328 ms
+20190708 16:56:44.759 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20190708 16:56:44.759 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-2 - Starting...
+20190708 16:56:44.775 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-2 - Start completed.
+20190708 16:56:44.775 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+20190708 16:56:44.818 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+20190708 16:56:44.834 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+20190708 16:56:44.865 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService
+20190708 16:56:44.865 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'ThreadPoolTest'
+20190708 16:56:44.943 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20190708 16:56:45.005 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+20190708 16:56:45.005 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+20190708 16:56:45.005 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Started SpringBootMockitoApplication in 0.636 seconds (JVM running for 221.717)
+20190708 16:56:45.005 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -Condition evaluation unchanged
+20190708 16:56:55.556 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+20190708 16:56:55.557 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+20190708 16:56:55.562 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 5 ms
+20190708 16:59:08.955 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Starting SpringBootMockitoApplication on SZ-zhangchi with PID 12672 (H:\GitHub\spring-boot-mockito\target\classes started by zhangchi in H:\GitHub\spring-boot-mockito)
+20190708 16:59:08.955 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -No active profile set, falling back to default profiles: default
+20190708 16:59:08.986 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20190708 16:59:08.986 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20190708 16:59:09.346 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Bootstrapping Spring Data repositories in DEFAULT mode.
+20190708 16:59:09.377 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 31ms. Found 2 repository interfaces.
+20190708 16:59:09.705 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdfe4f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20190708 16:59:09.924 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+20190708 16:59:09.924 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+20190708 16:59:09.940 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+20190708 16:59:09.940 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.21]
+20190708 16:59:10.033 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+20190708 16:59:10.033 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1047 ms
+20190708 16:59:10.143 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20190708 16:59:10.221 [restartedMain] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.10.Final}
+20190708 16:59:10.221 [restartedMain] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+20190708 16:59:10.299 [restartedMain] INFO  org.hibernate.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+20190708 16:59:10.362 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+20190708 16:59:10.627 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+20190708 16:59:10.627 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+20190708 16:59:11.002 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+20190708 16:59:11.033 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+20190708 16:59:11.205 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService
+20190708 16:59:11.205 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'ThreadPoolTest'
+20190708 16:59:11.346 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20190708 16:59:11.455 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+20190708 16:59:11.471 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+20190708 16:59:11.471 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Started SpringBootMockitoApplication in 2.703 seconds (JVM running for 3.356)
+20190708 16:59:15.126 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+20190708 16:59:15.126 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+20190708 16:59:15.131 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 5 ms
+20190708 16:59:15.182 [http-nio-8080-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator -HHH000397: Using ASTQueryTranslatorFactory
+20190708 17:04:51.662 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Shutting down ExecutorService 'ThreadPoolTest'
+20190708 17:04:51.662 [Thread-9] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+20190708 17:04:51.662 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+20190708 17:04:51.662 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+20190708 17:04:51.965 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Starting SpringBootMockitoApplication on SZ-zhangchi with PID 12672 (H:\GitHub\spring-boot-mockito\target\classes started by zhangchi in H:\GitHub\spring-boot-mockito)
+20190708 17:04:51.965 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -No active profile set, falling back to default profiles: default
+20190708 17:04:52.103 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Bootstrapping Spring Data repositories in DEFAULT mode.
+20190708 17:04:52.106 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 3ms. Found 2 repository interfaces.
+20190708 17:04:52.153 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdfe4f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20190708 17:04:52.247 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+20190708 17:04:52.247 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+20190708 17:04:52.247 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+20190708 17:04:52.247 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.21]
+20190708 17:04:52.278 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+20190708 17:04:52.278 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 313 ms
+20190708 17:04:52.325 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20190708 17:04:52.325 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-2 - Starting...
+20190708 17:04:52.340 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-2 - Start completed.
+20190708 17:04:52.340 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+20190708 17:04:52.372 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+20190708 17:04:52.387 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+20190708 17:04:52.434 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService
+20190708 17:04:52.434 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'ThreadPoolTest'
+20190708 17:04:52.497 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20190708 17:04:52.559 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+20190708 17:04:52.559 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+20190708 17:04:52.559 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Started SpringBootMockitoApplication in 0.625 seconds (JVM running for 344.435)
+20190708 17:04:52.559 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -Condition evaluation unchanged
+20190708 17:04:56.534 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+20190708 17:04:56.535 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+20190708 17:04:56.542 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 7 ms
+20190708 17:04:56.548 [http-nio-8080-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator -HHH000397: Using ASTQueryTranslatorFactory
+20190708 17:06:01.278 [Thread-19] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Shutting down ExecutorService 'ThreadPoolTest'
+20190708 17:06:01.278 [Thread-19] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+20190708 17:06:01.278 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-2 - Shutdown initiated...
+20190708 17:06:01.278 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-2 - Shutdown completed.
+20190708 17:06:01.495 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Starting SpringBootMockitoApplication on SZ-zhangchi with PID 12672 (H:\GitHub\spring-boot-mockito\target\classes started by zhangchi in H:\GitHub\spring-boot-mockito)
+20190708 17:06:01.495 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -No active profile set, falling back to default profiles: default
+20190708 17:06:01.605 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Bootstrapping Spring Data repositories in DEFAULT mode.
+20190708 17:06:01.620 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 15ms. Found 2 repository interfaces.
+20190708 17:06:01.667 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdfe4f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20190708 17:06:01.745 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+20190708 17:06:01.745 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+20190708 17:06:01.745 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+20190708 17:06:01.745 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.21]
+20190708 17:06:01.761 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+20190708 17:06:01.761 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 266 ms
+20190708 17:06:01.808 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20190708 17:06:01.808 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-3 - Starting...
+20190708 17:06:01.824 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-3 - Start completed.
+20190708 17:06:01.824 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+20190708 17:06:01.855 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+20190708 17:06:01.870 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+20190708 17:06:01.902 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService
+20190708 17:06:01.902 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'ThreadPoolTest'
+20190708 17:06:01.964 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20190708 17:06:02.027 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+20190708 17:06:02.027 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+20190708 17:06:02.027 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Started SpringBootMockitoApplication in 0.547 seconds (JVM running for 413.9)
+20190708 17:06:02.027 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -Condition evaluation unchanged
+20190708 17:06:06.463 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+20190708 17:06:06.464 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+20190708 17:06:06.470 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 6 ms
+20190708 17:06:06.477 [http-nio-8080-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator -HHH000397: Using ASTQueryTranslatorFactory
+20190708 17:08:24.526 [Thread-25] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Shutting down ExecutorService 'ThreadPoolTest'
+20190708 17:08:24.526 [Thread-25] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+20190708 17:08:24.526 [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-3 - Shutdown initiated...
+20190708 17:08:24.526 [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-3 - Shutdown completed.
+20190708 17:08:24.754 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Starting SpringBootMockitoApplication on SZ-zhangchi with PID 12672 (H:\GitHub\spring-boot-mockito\target\classes started by zhangchi in H:\GitHub\spring-boot-mockito)
+20190708 17:08:24.754 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -No active profile set, falling back to default profiles: default
+20190708 17:08:24.879 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Bootstrapping Spring Data repositories in DEFAULT mode.
+20190708 17:08:24.879 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 0ms. Found 2 repository interfaces.
+20190708 17:08:24.926 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdfe4f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20190708 17:08:25.004 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+20190708 17:08:25.004 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+20190708 17:08:25.004 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+20190708 17:08:25.004 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.21]
+20190708 17:08:25.036 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+20190708 17:08:25.036 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 282 ms
+20190708 17:08:25.067 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20190708 17:08:25.083 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-4 - Starting...
+20190708 17:08:25.083 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-4 - Start completed.
+20190708 17:08:25.083 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+20190708 17:08:25.114 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+20190708 17:08:25.129 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+20190708 17:08:25.161 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService
+20190708 17:08:25.161 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'ThreadPoolTest'
+20190708 17:08:25.239 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20190708 17:08:25.301 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+20190708 17:08:25.301 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+20190708 17:08:25.301 [restartedMain] INFO  com.zc.mockito.SpringBootMockitoApplication -Started SpringBootMockitoApplication in 0.562 seconds (JVM running for 557.181)
+20190708 17:08:25.301 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -Condition evaluation unchanged
+20190708 17:08:31.597 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+20190708 17:08:31.598 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+20190708 17:08:31.604 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 6 ms
+20190708 17:08:31.611 [http-nio-8080-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator -HHH000397: Using ASTQueryTranslatorFactory

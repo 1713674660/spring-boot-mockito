@@ -3,6 +3,9 @@ package com.zc.mockito.interfaces.controller;
 import com.zc.mockito.domain.model.Student;
 import com.zc.mockito.domain.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -48,6 +51,12 @@ public class StudentController {
     @DeleteMapping("/delete/{id}")
     public void delete(@PathVariable("id") int id){
         studentService.deleteStudent(id);
+    }
+
+    @GetMapping("/findPage")
+    @ResponseBody
+    public List<Student> findAll(@PageableDefault(page = 1,size=4,sort={"id"},direction = Sort.Direction.DESC) Pageable pageable){
+        return studentService.findAll(pageable);
     }
 
 }
