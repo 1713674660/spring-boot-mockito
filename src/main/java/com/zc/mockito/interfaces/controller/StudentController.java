@@ -35,18 +35,18 @@ public class StudentController {
 
     @PutMapping("/insert")
     @ResponseBody
-    public Student insert(Student student){
+    public Student insert(@RequestBody Student student){
         return studentService.insertStudent(student);
     }
 
     @PutMapping("/update")
     @ResponseBody
-    public Student update(Student student){
+    public Student update(@RequestBody Student student){
         return studentService.updateStudent(student);
     }
 
-    @DeleteMapping("/delete")
-    public void delete(int id){
+    @DeleteMapping("/delete/{id}")
+    public void delete(@PathVariable("id") int id){
         studentService.deleteStudent(id);
     }
 
